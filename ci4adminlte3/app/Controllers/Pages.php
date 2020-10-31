@@ -9,7 +9,7 @@ class Pages extends BaseController
         $element = [
             'title' => 'Menu | Name Site',
             'css1'   => '1',
-         ];
+        ];
 
         $data = array_merge($css,$element);
         // echo view('layout/home', $data);
