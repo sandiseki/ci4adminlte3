@@ -6,15 +6,16 @@ class Pages extends BaseController
 	{
     
         $data = [
-            'title' =>  "Menu | Name Site",
-            'css'   =>  ['assets/css/adminlte.css','https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback',
-                            'assets/plugins/fontawesome-free/css/all.min.css' ],
-            'js'    =>  ['3','4'],
+            'title' =>  "AdminLTE 3 | Dashboard",
+            'css'   =>  ['assets/css/adminlte.css',
+                        'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback',
+                        'assets/plugins/fontawesome-free/css/all.min.css' ],
+            'js'    =>  ['assets/plugins/jquery/jquery.min.js',
+                        'assets/plugins/bootstrap/js/bootstrap.bundle.min.js',
+                        'assets/js/adminlte.min.js'],
         ];
 
-        // $data = array_merge($css,$element,$js);
-        // echo view('layout/home', $data);
-        // echo $css;
+
         echo view('home', $data);
 		// return view('home', $data);
 	}
