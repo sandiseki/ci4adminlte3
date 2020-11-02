@@ -4,8 +4,8 @@ class Pages extends BaseController
 {
 	public function index()
 	{
-    
-    
+
+        
         $data = [
             'title'     =>  "AdminLTE 3 | Dashboard",
             'css'       =>  ['assets/css/adminlte.css',
