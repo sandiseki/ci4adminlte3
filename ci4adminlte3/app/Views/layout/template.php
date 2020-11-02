@@ -6,14 +6,14 @@
         <?= $this->include('layout/navbar'); ?>
         <?= $this->include('layout/sidebar'); ?>
         <?= $this->include('layout/content-wrapper'); ?>
-        <div class="content-header">
-            <div class="content">
-                <div class="container-fluid">
-                    <div class="row">
 
-                        <?= $this->renderSection('content'); ?>
+        <div class="content">
+            <div class="container-fluid">
+                <div class="row">
+                    
+                    <?= $this->renderSection('content'); ?>
 
-                    </div>
+                    
                 </div>
             </div>
         </div>
