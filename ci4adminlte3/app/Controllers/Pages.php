@@ -7,7 +7,7 @@ class Pages extends BaseController
 
         
         $data = [
-            'title'     =>  "AdminLTE 3 | Dashboard",
+            'title'     =>  "AdminLTE 3 | Starter",
             'css'       =>  ['assets/css/adminlte.css',
                             'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback',
                             'assets/plugins/fontawesome-free/css/all.min.css' ],
