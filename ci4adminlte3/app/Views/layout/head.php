@@ -5,7 +5,7 @@
     <title><?= $title ?></title>
     <!-- CSS -->
     <?php foreach ($css as $c):?>
-        <link rel="stylesheet" href='<?= base_url($c) ?>'>
+        <link rel="stylesheet" href='<?= $c ?>'>
     <?php endforeach;?>
 
 </head>

@@ -14,9 +14,10 @@ class Pages extends BaseController
             'js'        =>  ['assets/plugins/jquery/jquery.min.js',
                             'assets/plugins/bootstrap/js/bootstrap.bundle.min.js',
                             'assets/js/adminlte.min.js'],
-            'breadcumb' =>  ['1'],
+            'breadcumb' =>  ['Starter Page'],
         
         ];
+        
 
 
         echo view('home', $data);
