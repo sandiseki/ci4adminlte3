@@ -14,11 +14,12 @@
         <div class="content">
             <div class="container-fluid">
                 <div class="row">
-        <!-- content -->
+                    <!-- content -->
                     <?= $this->renderSection('content'); ?>
 
                 </div>
             </div>
+        </div>
         </div>
         <!-- control-sidebar -->
         <?= $this->include('layout/control-sidebar'); ?>
