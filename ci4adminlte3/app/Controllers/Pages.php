@@ -15,6 +15,7 @@ class Pages extends BaseController
                             'assets/plugins/bootstrap/js/bootstrap.bundle.min.js',
                             'assets/js/adminlte.min.js'],
             'breadcumb' =>  ['Starter Page'],
+            'title_content' =>  [''],
         
         ];
         

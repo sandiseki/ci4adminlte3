@@ -13,6 +13,7 @@
                         <li class="breadcrumb-item">
                             <a href="#">Home</a>
                         </li>
+                        <!-- breadcumb active -->
                         <li class="breadcrumb-item active">
                             <?php foreach ($breadcumb as $b):?>
                             <?= $b ?></li>

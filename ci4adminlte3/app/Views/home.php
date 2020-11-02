@@ -56,5 +56,5 @@
     </div>
 </div>
 <!-- /.col-md-6 -->
-</div>
+
 <?= $this->endSection(); ?>
