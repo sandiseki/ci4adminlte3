@@ -2,6 +2,7 @@
 
 class Pages extends BaseController
 {
+    
 	public function index()
 	{
 
