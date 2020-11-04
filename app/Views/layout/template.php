@@ -3,23 +3,24 @@
     <!-- css -->
     <?= $this->include('layout/head'); ?>
 
-    <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed">
-        <!-- navbar -->
-        <?= $this->include('layout/navbar'); ?>
-        <!-- sidebar -->
-        <?= $this->include('layout/sidebar'); ?>
-        <!-- content-wrapper -->
-        <?= $this->include('layout/content-wrapper'); ?>
+    <body class="hold-transition sidebar-mini">
+        <div class="wrapper">
+            <!-- navbar -->
+            <?= $this->include('layout/navbar'); ?>
+            <!-- sidebar -->
+            <?= $this->include('layout/sidebar'); ?>
+            <!-- content-wrapper -->
+            <?= $this->include('layout/content-wrapper'); ?>
 
-        <div class="content">
-            <div class="container-fluid">
-                <div class="row">
-                    <!-- content -->
-                    <?= $this->renderSection('content'); ?>
+            <div class="content">
+                <div class="container-fluid">
+                    <div class="row">
+                        <!-- content -->
+                        <?= $this->renderSection('content'); ?>
 
+                    </div>
                 </div>
             </div>
-        </div>
         </div>
         <!-- control-sidebar -->
         <?= $this->include('layout/control-sidebar'); ?>
