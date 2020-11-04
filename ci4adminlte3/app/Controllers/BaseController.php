@@ -42,8 +42,16 @@ class BaseController extends Controller
 		// E.g.:
 		// $this->session = \Config\Services::session();
 		
-		// $this->css= '';
-		// $this->js= '';
+		$this->css = [
+			'css'   =>  ['assets/css/adminlte.css',
+							'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback',
+							'assets/plugins/fontawesome-free/css/all.min.css'],
+		];
+		$this->js =  [
+			'js'    =>  ['assets/plugins/jquery/jquery.min.js',
+							'assets/plugins/bootstrap/js/bootstrap.bundle.min.js',
+							'assets/js/adminlte.min.js'],
+		];
 		
 	}
 
